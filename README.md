@@ -21,12 +21,14 @@ curl -X GET \
   -H 'cache-control: no-cache' \
   -d 'grant_type=password&username=admin&password=admin&scope=openid%20sgc&undefined='
   
+  
+  
+  
   XACML Policy
   
-  
+ 
 
-
-
+```xml
 <Policy xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17"  PolicyId="sample" RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:first-applicable" Version="1.0">
    <Target>
       <AnyOf>
@@ -55,6 +57,5 @@ curl -X GET \
       </AnyOf>
    </Target>
    <Rule Effect="Permit" RuleId="permit_by_roles"></Rule>
-</Policy>        
-
-
+</Policy> 
+```
