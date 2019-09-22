@@ -1,6 +1,8 @@
 # wso2is-rolebased-authz
 Role Based authorization For Spring BOOT using Wso2 Identity server 
 
+Related Blog : https://medium.com/@buddhimau/role-based-authorization-for-spring-boot-using-wso2-identity-server-3d74ab307fb9
+
 This project is created with the help of 
 
 https://medium.com/@balaajanthan/securing-spring-micro-service-using-wso2-identity-server-dbecf90c402
